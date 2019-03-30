@@ -52,6 +52,7 @@ Actuellement, Sython supporte 4 opérations :
 - Division : '/'
 - Modulo : '%'
 - Puissance : '^'
+- Division Euclidienne : '//'
 
 Exemple :
 
@@ -63,7 +64,7 @@ Exemple :
     phrase = "Bonjour "+"tout le monde"
     entier4 += entier2
 
-.. note :: Ici, il y a aussi l'introduction des opérateurs affectifs via la notation : <variable> <operateur>= <valeur|variable>.
+.. note :: Ici, il y a aussi l'introduction des opérateurs affectifs via la notation : <variable> <operateur>= <valeur|variable> (Dispo pour tous les opérateurs).
 
 Conversion
 ----------
