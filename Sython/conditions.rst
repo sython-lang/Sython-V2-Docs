@@ -7,6 +7,7 @@ Comparateurs
 ------------
 
 Sython incorpore 5 comparateurs :
+
 - Egal, noté "=="
 - Inférieur, noté "<"
 - Supérieur, noté ">"
