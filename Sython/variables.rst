@@ -45,7 +45,7 @@ Exemple :
 Opérations
 ----------
 
-Actuellement, Sython supporte 4 opérations :
+Actuellement, Sython supporte 7 opérations :
 
 - Addition : '+'
 - Soustraction : '-'
