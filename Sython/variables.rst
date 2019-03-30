@@ -11,7 +11,7 @@ Actuellement, Sython comporte 4 types basiques différents :
 - integer, pour les entiers
 - float, pour les nombres à virgules
 - string, pour les chaines de caractères
-- boolean
+- boolean, soit vrai (true), soit faux (false)
 
 Pour déclarer une variable, il faut suivre le paterne suivant : <nom> = <valeur>
 
@@ -22,6 +22,7 @@ Exemple :
     entier = 1
     flottant = 1.0
     texte = "Bonjour"
+    etat = true
 
 .. note :: Comme vous avez pû l'apercevoir, les flottants n'utilise pas une virgule mais un point pour différencier la partie entière de la partie décimal
 
