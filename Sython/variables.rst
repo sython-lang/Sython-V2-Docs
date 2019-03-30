@@ -48,7 +48,7 @@ Opérations
 Actuellement, Sython supporte 4 opérations :
 
 - Addition : '+'
-- Soustraction : '+'
+- Soustraction : '-'
 - Multiplication : '*'
 - Division : '/'
 - Modulo : '%'
