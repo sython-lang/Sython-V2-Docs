@@ -41,3 +41,4 @@ Sommaire :
    Sython/variables
    Sython/entree_sortie
    Sython/conditions
+   Sython/boucles
