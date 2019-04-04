@@ -82,3 +82,16 @@ Exemple :
     // 'nombre' contient 1
 
 .. note :: Attention, si la conversion n'est pas possible, vous aurez une erreur
+
+Cependant, vous pouvez savoir si un conversion est possible via la fonction canbe qui s'utilise comme ceci 'canbe <variable> <type>'
+
+Exemple :
+
+.. code-block:: python
+
+    nombre = "1"
+    lettre = "a"
+    show(canbe(nombre, "int")) #Affichera True
+    show(canbe(lettre, "int")) #affichera False
+
+.. note :: Attention, les types sont en format contracté. Donc "integer" = "int", "string" = "str", "float" = "float" et "boolean" = "bool".
