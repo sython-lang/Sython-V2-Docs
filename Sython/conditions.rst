@@ -1,7 +1,7 @@
 Conditions
 ==========
 
-Les conditions complexes n'ont pas encore été implémentés dans Sython. Cependant, vous pouvez déjà utiliser des conditions simples.
+Pour contruire vos conditions, Sython vous propose 3 types d'outils : les comparateurs, les opérateurs logiques et les conditions en elle-même.
 
 Comparateurs
 ------------
@@ -45,23 +45,31 @@ Exemple :
 Conditions
 ----------
 
-Sython n'incorpore pour l'instant que des conditions simples :
+Sython n'incorpore 4 types de conditions :
 
 - If, noté 'if <condition> { <code> }'
 - If-Else, noté 'if <condition> { <code> } else { <code> }'
+- If-ElseIf, noté 'if <condition> { <code> } else if <condition> { <code> }' ou 'if <condition> { <code> } elseif <condition> { <code> }'
+- If-ElseIf-Else, noté 'if <condition> { <code> } else if <condition> { <code> } else { <code> }' ou 'if <condition> { <code> } elseif <condition> { <code> } else { <code> }'
 
 Exemple :
 
 .. code-block:: python
 
-    a = enter("Votre age :")
+    a = enter("Entrez un nombre entre 1 et 3 :")
     a = int(a)
-    if a >= 18
+    if a == 1
     {
-        show("Vous etes majeur")
+        show("Process 1")
+    }else if a == 2
+    {
+        show("Process 2")
+    }elseif a == 3   # Ecrire else if ou elseif n'a pas d'importance.
+    {
+        show("Process 3")
     }else
     {
-        show("Vous etes mineur")
+        show("Erreur : Votre nombre n'est pas entre 1 et 3.")
     }
 
-.. note :: ATTENTION : Il ne doit pas y avoir de retour à la ligne entre le } et else. Sinon vous aurez une erreur.
+.. note :: ATTENTION : Il ne doit pas y avoir de retour à la ligne entre } et else et entre } et else if. Sinon vous aurez une erreur.
